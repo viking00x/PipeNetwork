@@ -36,7 +36,7 @@ function install_node() {
     fi
 
     # 克隆仓库到唯一目录
-    git clone https://github.com/sdohuajia/pipe.git "$UNIQUE_DIR"
+    git clone https://github.com/viking00x/pipe.git "$UNIQUE_DIR"
     cd "$UNIQUE_DIR" || { echo "进入目录失败"; return 1; }
 
     pip install -r requirements.txt
